@@ -1,10 +1,23 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap");
 .bg-primary {
   background-color: #92CCCE;
 }
 
 .bg-primary-light {
-  background-color: #d3ebeb;
+  background-color: #e9f5f5;
+}
+
+.text-primary-light {
+  color: #e9f5f5;
+}
+
+.bg-primary-dark {
+  background-color: #75a3a5;
+}
+
+.text-primary-dark {
+  color: #75a3a5;
 }
 
 .bg-secondary {
@@ -12,7 +25,19 @@
 }
 
 .bg-secondary-light {
-  background-color: #f1d3bf;
+  background-color: #f8e9df;
+}
+
+.text-secondary-light {
+  color: #f8e9df;
+}
+
+.bg-secondary-dark {
+  background-color: #af754c;
+}
+
+.text-secondary-dark {
+  color: #af754c;
 }
 
 .bg-success {
@@ -20,7 +45,19 @@
 }
 
 .bg-success-light {
-  background-color: #a3cfbb;
+  background-color: #d1e7dd;
+}
+
+.text-success-light {
+  color: #d1e7dd;
+}
+
+.bg-success-dark {
+  background-color: #146c43;
+}
+
+.text-success-dark {
+  color: #146c43;
 }
 
 .bg-info {
@@ -28,7 +65,19 @@
 }
 
 .bg-info-light {
-  background-color: #9eeaf9;
+  background-color: #cff4fc;
+}
+
+.text-info-light {
+  color: #cff4fc;
+}
+
+.bg-info-dark {
+  background-color: #0aa2c0;
+}
+
+.text-info-dark {
+  color: #0aa2c0;
 }
 
 .bg-warning {
@@ -36,7 +85,19 @@
 }
 
 .bg-warning-light {
-  background-color: #ffe69c;
+  background-color: #fff3cd;
+}
+
+.text-warning-light {
+  color: #fff3cd;
+}
+
+.bg-warning-dark {
+  background-color: #cc9a06;
+}
+
+.text-warning-dark {
+  color: #cc9a06;
 }
 
 .bg-danger {
@@ -44,7 +105,19 @@
 }
 
 .bg-danger-light {
-  background-color: #f1aeb5;
+  background-color: #f8d7da;
+}
+
+.text-danger-light {
+  color: #f8d7da;
+}
+
+.bg-danger-dark {
+  background-color: #b02a37;
+}
+
+.text-danger-dark {
+  color: #b02a37;
 }
 
 .bg-light {
@@ -52,7 +125,19 @@
 }
 
 .bg-light-light {
-  background-color: #fdfdfd;
+  background-color: #fefefe;
+}
+
+.text-light-light {
+  color: #fefefe;
+}
+
+.bg-light-dark {
+  background-color: #c8c7c7;
+}
+
+.text-light-dark {
+  color: #c8c7c7;
 }
 
 .bg-dark {
@@ -60,7 +145,23 @@
 }
 
 .bg-dark-light {
-  background-color: #b6bfc1;
+  background-color: #dbdfe0;
+}
+
+.text-dark-light {
+  color: #dbdfe0;
+}
+
+.bg-dark-dark {
+  background-color: #3a4b4f;
+}
+
+.text-dark-dark {
+  color: #3a4b4f;
+}
+
+body {
+  font-family: "Barlow", sans-serif !important;
 }
 
 /*!

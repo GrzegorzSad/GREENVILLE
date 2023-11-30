@@ -29,9 +29,26 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     }
 
     .bg-#{$key}-light {
-        background-color: tint-color($val, 60%);
+        background-color: tint-color($val, 80%);
+    }
+
+    .text-#{$key}-light {
+        color: tint-color($val, 80%);
+    }
+
+    .bg-#{$key}-dark {
+        background-color: shade-color($val, 20%);
+    }
+
+    .text-#{$key}-dark {
+        color: shade-color($val, 20%);
     }
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap");
+
+body {
+    font-family: 'Barlow', sans-serif !important;
+  }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
