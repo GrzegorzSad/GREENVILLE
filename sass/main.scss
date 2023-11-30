@@ -1,3 +1,37 @@
-// $primary: #234631;
+@import "../node_modules/bootstrap/scss/functions";
+
+
+// $primary: #d84431;
+// $secondary: #7a3a3a;
+// $dark: #141111;
+// $light: #ececec;
+$enable-rounded: false;
+$enable-shadows: true;
+$enable-negative-margins: true;
+
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$custom-colors: (
+    "primary": #92CCCE,
+    "secondary": #DB925F,
+    "dark": #495E63,
+    "light": #FAF9F9
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+@each $key, $val in $theme-colors {
+    .bg-#{$key} {
+        background-color: $val;
+    }
+
+    .bg-#{$key}-light {
+        background-color: tint-color($val, 60%);
+    }
+}
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
