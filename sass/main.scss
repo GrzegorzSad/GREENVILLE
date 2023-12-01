@@ -8,6 +8,7 @@
 $enable-rounded: false;
 $enable-shadows: true;
 $enable-negative-margins: true;
+$enable-gradients: true;
 
 
 @import "../node_modules/bootstrap/scss/variables";
@@ -29,11 +30,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     }
 
     .bg-#{$key}-light {
-        background-color: tint-color($val, 80%);
+        background-color: tint-color($val, 90%);
     }
 
     .text-#{$key}-light {
-        color: tint-color($val, 80%);
+        color: tint-color($val, 90%);
     }
 
     .bg-#{$key}-dark {
@@ -50,5 +51,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 body {
     font-family: 'Barlow', sans-serif !important;
   }
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
