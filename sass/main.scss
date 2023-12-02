@@ -30,11 +30,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     }
 
     .bg-#{$key}-light {
-        background-color: tint-color($val, 90%);
+        background-color: tint-color($val, 50%);
     }
 
     .text-#{$key}-light {
-        color: tint-color($val, 90%);
+        color: tint-color($val, 50%);
     }
 
     .bg-#{$key}-dark {
@@ -50,6 +50,29 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 body {
     font-family: 'Barlow', sans-serif !important;
+}
+
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .image-container:hover .image-zoom {
+    transform: scale(1.1);
+  }
+
+  .image-zoom {
+    transition: transform 0.5s ease-in-out;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .cropped-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
   }
 
 
