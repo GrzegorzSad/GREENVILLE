@@ -95,6 +95,12 @@ body {
     width: 100%;
 }
 
+@media (min-width: 992px) and (max-width: 2000px) {
+    /* Large screens and above */
+    .vh-100-custom {
+      height: 100vh;
+    }
+}
 
 $font-size-base: 20px;
 
