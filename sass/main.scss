@@ -5,20 +5,21 @@
 // $secondary: #7a3a3a;
 // $dark: #141111;
 // $light: #ececec;
-$enable-rounded: false;
+// $enable-rounded: false;
 $enable-shadows: true;
 $enable-negative-margins: true;
 $enable-gradients: true;
 
 $spacer: 1rem;
 $spacers: (
-  0: 0,
-  1: $spacer * 0.1,
-  2: $spacer * 0.33,
-  3: $spacer,
-  4: $spacer * 2,
-  5: $spacer * 3,
-  10: $spacer * 6
+    0: 0,
+    1: $spacer * 0.1,
+    2: $spacer * 0.33,
+    3: $spacer,
+    4: $spacer * 2,
+    5: $spacer * 3,
+    10: $spacer * 6,
+    20: $spacer * 12,
 );
 
 
@@ -26,10 +27,16 @@ $spacers: (
 @import "../node_modules/bootstrap/scss/mixins";
 
 $custom-colors: (
-    "primary": #92CCCE,
-    "secondary": #DB925F,
+    // "primary": #92CCCE,
+    // "secondary": #DB925F,
+    // "dark": #495E63,
+    // "light": #FAF9F9
+    "primary": #e9fbff,
+    "secondary": #dcc3c3,
     "dark": #495E63,
-    "light": #FAF9F9
+    "light": #FAF9F9,
+    "green": #e4f0d8,
+    "black": #000000,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -58,34 +65,37 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 body {
-    font-family: 'Barlow', sans-serif !important;
+    // font-family: 'Barlow', sans-serif !important;
+    font-family: 'Josefin+Sans', sans-serif !important;
 }
 
 
 .image-container {
     overflow: hidden;
     position: relative;
-  }
+}
 
-  .image-container:hover .image-zoom {
+.image-container:hover .image-zoom {
     transform: scale(1.1);
-  }
+}
 
-  .image-zoom {
+.image-zoom {
     transition: transform 0.5s ease-in-out;
     display: block;
     width: 100%;
     height: auto;
-  }
+}
 
-  .cropped-img {
+.cropped-img {
     object-fit: cover;
     height: 100%;
     width: 100%;
-  }
+}
 
-  $font-size-base: 20px;
+
+$font-size-base: 20px;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
