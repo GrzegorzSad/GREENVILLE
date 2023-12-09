@@ -35,8 +35,9 @@ $custom-colors: (
     "secondary": #dcc3c3,
     "dark": #495E63,
     "light": #FAF9F9,
-    "green": #e4f0d8,
+    "green": rgb(230, 237, 224),
     "black": #000000,
+    "gray": #f2eae7,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
