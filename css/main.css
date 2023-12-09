@@ -234,6 +234,17 @@ body {
     height: 100vh;
   }
 }
+@media (max-width: 990px) {
+  .move-to-top {
+    order: -1; /* Move the element to the start */
+  }
+}
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:focus {
+  color: white !important;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors

@@ -101,6 +101,18 @@ body {
       height: 100vh;
     }
 }
+@media (max-width: 990px) {
+    .move-to-top {
+      order: -1; /* Move the element to the start */
+    //   margin-bottom: 15px; /* Add some space between the elements */
+    }
+  }
+
+  .btn-custom:hover,
+    .btn-custom:active,
+    .btn-custom:focus {
+      color: white !important;
+    }
 
 $font-size-base: 20px;
 
