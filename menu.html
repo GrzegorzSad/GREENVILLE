@@ -46,7 +46,7 @@
 			<h2 class="fw-bold mb-5">OUR MENU</h2>
 			<p class="">Choose your order type for a personalized experience.</p>
 
-			<div class="btn-group" role="group" aria-label="Order Options">
+			<div class="btn-group col-lg-6 col-md-9 col-12" role="group" aria-label="Order Options">
 				<input class="btn-check" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
 				<label class="fw-bold btn btn-outline-black" for="flexRadioDefault1">
 					Click and Collect
@@ -58,8 +58,19 @@
 				</label>
 			</div>
 
-			<div id="clickAndCollectContent" class="mt-5">
-				<h2 class="mt-4 mb-3">Breakfast</h2>
+			
+
+			<!-- BREAKFAST -->
+
+
+
+			<div id="clickAndCollectContent" class="mt-4">
+				<div class=" fw-bold d-flex flex-row ">
+					<a class="btn btn-outline-black rounded-pill fw-bold me-2" href="#breakfast">Breakfast</a>
+					<a class="btn btn-outline-black rounded-pill fw-bold me-2" href="#lunch">Lunch</a>
+					<a class="btn btn-outline-black rounded-pill fw-bold" href="#drinks">Drinks</a>
+				</div>
+				<h2 id="breakfast" class="mt-4 mb-3">Breakfast</h2>
 				<div class="row">
 					<div class="col-xl col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
 						<div>
@@ -155,19 +166,26 @@
 							<hr class="mb-5">
 						</div>
 					</div>
-
-
 				</div>
+
+
+				<!-- DINNER -->
+
+
 			</div>
 
-			<div id="officeCateringContent" class="mt-3 d-none">
+
+<!-- 			OFFICE CATERING -->
+
+
+			<div id="officeCateringContent" class="mt-5 d-none">
 				<h2 class="my-4">Office Catering</h2>
 			</div>
 		</div>
 	</div>
 
 
-    <div class="fixed-bottom bg-none p-3 d-flex justify-content-end">
+    <div class="fixed-bottom bg-none me-2 p-3 d-flex justify-content-end">
         <button type="button" class="fw-bold btn btn-outline-black text-black btn-light btn-custom rounded-pill"><i class="bi bi-basket me-2"></i>View Basket</button>
     </div>
 
