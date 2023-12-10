@@ -257,7 +257,8 @@ body {
 }
 @media (max-width: 990px) {
   .move-to-top {
-    order: -1; /* Move the element to the start */
+    order: -1;
+    /* Move the element to the start */
   }
 }
 .btn-custom:hover,

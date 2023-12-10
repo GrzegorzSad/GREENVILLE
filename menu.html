@@ -34,169 +34,469 @@
 
 
 
-	<!-- MENU -->
+<!-- MENU -->
 
 
 
 
 
 
-	<div class="container-fluid bg-gray  pb-20 pt-10 " id="menu">
-		<div class="container-xl">
-			<h2 class="fw-bold mb-5">OUR MENU</h2>
-			<p class="">Choose your order type for a personalized experience.</p>
+<div class="container-fluid bg-gray  pb-20 pt-10 " id="menu">
+	<div class="container-xl">
+		<h2 class="fw-bold mb-5">OUR MENU</h2>
+		<p class="">Choose your order type for a personalized experience.</p>
 
-			<div class="btn-group col-lg-6 col-md-9 col-12" role="group" aria-label="Order Options">
-				<input class="btn-check" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-				<label class="fw-bold btn btn-outline-black" for="flexRadioDefault1">
-					Click and Collect
-				</label>
+		<div class="btn-group col-lg-6 col-md-9 col-12" role="group" aria-label="Order Options">
+			<input class="btn-check" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+			<label class="fw-bold btn btn-outline-black" for="flexRadioDefault1">
+				Click and Collect
+			</label>
 
-				<input class="btn-check" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-				<label class="fw-bold btn btn-outline-black" for="flexRadioDefault2">
-					Office Catering
-				</label>
+			<input class="btn-check" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+			<label class="fw-bold btn btn-outline-black" for="flexRadioDefault2">
+				Office Catering
+			</label>
+		</div>
+
+
+
+		<!-- BREAKFAST -->
+
+
+
+		<div id="clickAndCollectContent" class="mt-4">
+			<div class=" fw-bold d-flex flex-row ">
+				<a class="btn btn-outline-black rounded-pill fw-bold me-2" href="#breakfast">Breakfast</a>
+				<a class="btn btn-outline-black rounded-pill fw-bold me-2" href="#lunch">Lunch</a>
+				<a class="btn btn-outline-black rounded-pill fw-bold" href="#drinks">Drinks</a>
+			</div>
+			<h2 id="breakfast" class="mt-4 mb-3">Breakfast</h2>
+			<div class="row">
+				<div class="col-xl col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/6.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">HOMEMADE SAUSAGE ROLLS</h5>
+							<p class="fs-6 text-lowercase ">‘FULL IRISH’ OR CHORIZO, BOTH WITH HOMEMADE KETCHUP
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€4</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/5.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">VEGAN SAUSAGEROLL</h5>
+							<p class="fs-6 text-lowercase ">WITH HOMEMADE KETCHUP
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€5</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/1.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">BREAKFAST TOASTIE</h5>
+							<p class="fs-6 text-lowercase ">WITH STREAKY RASHERS,BLACK PUDDING & PORK SAUSAGES AND OUR HOMEMADE SPICED KETCHUP
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€6.50</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/4.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">HAM & CHEESE CROISSANTS</h5>
+							<p class="fs-6 text-lowercase ">24 HOUR OVERNIGHT OATS & GRANOLA POTS
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€3.80</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/5.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">EGGS AND BACON</h5>
+							<p class="fs-6 text-lowercase ">Lorem ipsum dolor sit.E KETCHUP
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€5</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+			</div>
+
+
+
+			<!-- LUNCH -->
+
+
+
+			<h2 id="lunch" class="mt-4 mb-3">Lunch</h2>
+			<div class="row">
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/6.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">THE CHICKEN CHORIZO</h5>
+							<p class="fs-6 text-lowercase ">SLICES OF SMOKEY CHIPOTLE CHICKEN BREAST,SPICY CHORIZO,ZESTY AVOCADO MAYO,ROASTED PLUM TOMATOES & PEPPERY ROCKET ON SOURDOUGH.
+
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€5.50</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/5.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">THE MEXICAN MELT</h5>
+							<p class="fs-6 text-lowercase ">CRISPY BACON,CHUNKS OF CHORIZ & JALAPENOS SMOTHERED IN OURCHIPOTLE AIOLI AND TOPPED WITH LOADS OF FRESHLY GRATEDMOZZARELLA ON SOURDOUGH.
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€6</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/1.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">3 CHEESE & HAM</h5>
+							<p class="fs-6 text-lowercase ">HAND CARVED MAPLE GLAZED HAM,SMOKED APPLEWOOD,MOZZARELLA & MATURE RED CHEDDAR,HOMEMADE BECHAMEL AND MUSTARD MAYO ON SOURDOUGH.
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€7.50</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/4.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">THE CHRISTMAS SPECIAL</h5>
+							<p class="fs-6 text-lowercase ">ROASTED TURKEY BREAST,HONEY GLAZED HAM,HOMEMADE STUFFING, PICKLED RED CABBAGE,CRANBERRY SAUCE & MUSTARD AOILI ON SOURDOUGH.
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€6.80</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/5.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">THE ASIAN PULLED PORK</h5>
+							<p class="fs-6 text-lowercase ">SLOW COOKED PULLED PORK,SPICY ASIAN SLAW,HOUSE PICKLED CUCUMBER, CHILLIES,FRESHROCKET & HOMEMADE PEANUT RAYU AIOLI ON SOURDOUGH.
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€9</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/5.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">THE CHRISTMAS VEGAN</h5>
+							<p class="fs-6 text-lowercase ">ROASTED SWEET POTATO AND GREEN LENTILS WITH NUTMEG,CINNAMON AND CLOVES,VEGAN STUFFING,MUSTARD MAYO AND CRANBERRY SAUCE ON SOURDOUGH.
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€9</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/5.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">SOUP WITH SOUGHERDOUGH</h5>
+							<p class="fs-6 text-lowercase ">Lorem ipsum dolor sit.E KETCHUP
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€9</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+			</div>
+
+
+			<!-- DRINKS -->
+
+
+			<h2 id="drinks" class="mt-4 mb-3">Drinks</h2>
+			<div class="row">
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/3.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">VELVET MOCHA BLISS</h5>
+							<p class="fs-6 text-lowercase ">Rich mocha bliss with smooth chocolate and robust espresso, crowned with whipped cream.
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€4</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/d3.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">HARMONY HAZE BLEND</h5>
+							<p class="fs-6 text-lowercase ">Balanced symphony of medium-roast Arabica beans, offering a nuanced and blissful taste.
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€5</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/d5.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">ZEN GARDEN ROAST</h5>
+							<p class="fs-6 text-lowercase ">Tranquil blend of lightly roasted beans from exotic regions for a serene and floral coffee experience.
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€6.50</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/d4.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">CARAMEL EUPHORIA ELIXIR</h5>
+							<p class="fs-6 text-lowercase ">Surrender to sweet caramel seamlessly woven into a bold coffee canvas for a euphoric escape.
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€3.80</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/3.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">SPICED MAPLE SYMPHONY</h5>
+							<p class="fs-6 text-lowercase ">Fall in love with autumn spices and sweet maple in a symphonic celebration of flavors.
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€5</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/d5.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">MIDNIGHT VELVET ESPRESSO</h5>
+							<p class="fs-6 text-lowercase ">Intense dark-roast blend with cocoa hints and a smooth, lingering finish for a midnight coffee experience.
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€5</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/d4.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">TROPICAL SUNRISE INFUSION</h5>
+							<p class="fs-6 text-lowercase ">Transport your senses to a tropical paradise with a vibrant blend of medium-roast coffee and exotic fruit flavors.
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€5</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+					<div>
+						<img src="images/d3.jpg" class="img-fluid shadow-lg">
+						<div class="d-flex flex-column justify-content-between">
+							<h5 class=" fw-bold mt-3 mb-2">HAZELNUT SYMPHONY DELIGHT</h5>
+							<p class="fs-6 text-lowercase ">A delightful symphony of medium-roast coffee with nutty hazelnut notes, promising rich and satisfying pleasure.
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex justify-content-between align-items-start mt-2">
+							<p class="fw-bold">€5</p>
+							<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
+								Order</button>
+						</div>
+						<hr class="mb-5">
+					</div>
+				</div>
 			</div>
 
 			
-
-			<!-- BREAKFAST -->
-
+		</div>
 
 
-			<div id="clickAndCollectContent" class="mt-4">
-				<div class=" fw-bold d-flex flex-row ">
-					<a class="btn btn-outline-black rounded-pill fw-bold me-2" href="#breakfast">Breakfast</a>
-					<a class="btn btn-outline-black rounded-pill fw-bold me-2" href="#lunch">Lunch</a>
-					<a class="btn btn-outline-black rounded-pill fw-bold" href="#drinks">Drinks</a>
-				</div>
-				<h2 id="breakfast" class="mt-4 mb-3">Breakfast</h2>
-				<div class="row">
-					<div class="col-xl col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
-						<div>
-							<img src="images/6.jpg" class="img-fluid shadow-lg">
-							<div class="d-flex flex-column justify-content-between">
-								<h5 class=" fw-bold mt-3 mb-2">HOMEMADE SAUSAGE ROLLS</h5>
-								<p class="fs-6 text-lowercase ">‘FULL IRISH’ OR CHORIZO, BOTH WITH KETCHUP
-								</p>
-							</div>
-						</div>
-						<div>
-							<div class="d-flex justify-content-between align-items-start mt-2">
-								<p class="fw-bold">€4</p>
-								<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
-									Order</button>
-							</div>
-							<hr class="mb-5">
-						</div>
-					</div>
-
-					<div class="col-xl col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
-						<div>
-							<img src="images/5.jpg" class="img-fluid shadow-lg">
-							<div class="d-flex flex-column justify-content-between">
-								<h5 class=" fw-bold mt-3 mb-2">BURGER WITH CHEESE</h5>
-								<p class="fs-6 text-lowercase ">‘FEMADE KETCHUP
-								</p>
-							</div>
-						</div>
-						<div>
-							<div class="d-flex justify-content-between align-items-start mt-2">
-								<p class="fw-bold">€5</p>
-								<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
-									Order</button>
-							</div>
-							<hr class="mb-5">
-						</div>
-					</div>
-
-					<div class="col-xl col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
-						<div>
-							<img src="images/1.jpg" class="img-fluid shadow-lg">
-							<div class="d-flex flex-column justify-content-between">
-								<h5 class=" fw-bold mt-3 mb-2">TOAST WITH JAM</h5>
-								<p class="fs-6 text-lowercase ">‘FULL IRISH’ OR CHORIZO Lorem, ipsum dolor, BOTH WITH HOMEMADE KETCHUP
-								</p>
-							</div>
-						</div>
-						<div>
-							<div class="d-flex justify-content-between align-items-start mt-2">
-								<p class="fw-bold">€6.50</p>
-								<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
-									Order</button>
-							</div>
-							<hr class="mb-5">
-						</div>
-					</div>
-
-					<div class="col-xl col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
-						<div>
-							<img src="images/4.jpg" class="img-fluid shadow-lg">
-							<div class="d-flex flex-column justify-content-between">
-								<h5 class=" fw-bold mt-3 mb-2">TOAST</h5>
-								<p class="fs-6 text-lowercase ">Lorem, ipsum.
-								</p>
-							</div>
-						</div>
-						<div>
-							<div class="d-flex justify-content-between align-items-start mt-2">
-								<p class="fw-bold">€3.80</p>
-								<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
-									Order</button>
-							</div>
-							<hr class="mb-5">
-						</div>
-					</div>
-
-					<div class="col-xl col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
-						<div>
-							<img src="images/5.jpg" class="img-fluid shadow-lg">
-							<div class="d-flex flex-column justify-content-between">
-								<h5 class=" fw-bold mt-3 mb-2">EGGS AND BACON</h5>
-								<p class="fs-6 text-lowercase ">Lorem ipsum dolor sit.E KETCHUP
-								</p>
-							</div>
-						</div>
-						<div>
-							<div class="d-flex justify-content-between align-items-start mt-2">
-								<p class="fw-bold">€5</p>
-								<button class="fw-bold btn btn-outline-black rounded-pill m-0 p-2 px-3" type="submit">Add to
-									Order</button>
-							</div>
-							<hr class="mb-5">
-						</div>
-					</div>
-				</div>
 
 
-				<!-- DINNER -->
+		<!-- 			OFFICE CATERING -->
 
 
-			</div>
-
-
-<!-- 			OFFICE CATERING -->
-
-
-			<div id="officeCateringContent" class="mt-5 d-none">
-				<h2 class="my-4">Office Catering</h2>
-			</div>
+		<div id="officeCateringContent" class="mt-5 d-none">
+			<h2 class="my-4">Office Catering</h2>
 		</div>
 	</div>
+</div>
 
 
-    <div class="fixed-bottom bg-none me-2 p-3 d-flex justify-content-end">
-        <button type="button" class="fw-bold btn btn-outline-black text-black btn-light btn-custom rounded-pill"><i class="bi bi-basket me-2"></i>View Basket</button>
-    </div>
+<div class="fixed-bottom bg-none me-2 p-3 d-flex justify-content-end">
+	<button type="button" class="fw-bold btn btn-outline-black text-black btn-light btn-custom rounded-pill"><i
+			class="bi bi-basket me-2"></i>View Basket</button>
+</div>
 
 
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-		crossorigin="anonymous"></script>
-	<script src="js.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+	crossorigin="anonymous"></script>
+<script src="js.js"></script>
 
 
 
